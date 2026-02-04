@@ -1,0 +1,181 @@
+Model,Missing,Feature,Imbalance,Params,Accuracy,Precision,Recall,F1,FNR
+Baseline,drop,none,none,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,drop,none,class_weight,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,drop,none,undersample,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,drop,none,smote,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,drop,domain,none,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,drop,domain,class_weight,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,drop,domain,undersample,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,drop,domain,smote,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,drop,tfidf,none,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,drop,tfidf,class_weight,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,drop,tfidf,undersample,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,drop,tfidf,smote,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,knn,none,none,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,knn,none,class_weight,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,knn,none,undersample,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,knn,none,smote,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,knn,domain,none,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,knn,domain,class_weight,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,knn,domain,undersample,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,knn,domain,smote,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,knn,tfidf,none,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,knn,tfidf,class_weight,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,knn,tfidf,undersample,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,knn,tfidf,smote,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,model,none,none,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,model,none,class_weight,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,model,none,undersample,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,model,none,smote,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,model,domain,none,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,model,domain,class_weight,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,model,domain,undersample,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,model,domain,smote,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,model,tfidf,none,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,model,tfidf,class_weight,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,model,tfidf,undersample,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,model,tfidf,smote,{'strategy': 'most_frequent'},0.751,0.0,0.0,0.0,1.0
+Baseline,drop,none,none,Tuning failed,,,,,
+Baseline,drop,none,class_weight,Tuning failed,,,,,
+Baseline,drop,none,undersample,Tuning failed,,,,,
+Baseline,drop,none,smote,Tuning failed,,,,,
+Baseline,drop,domain,none,Tuning failed,,,,,
+Baseline,drop,domain,class_weight,Tuning failed,,,,,
+Baseline,drop,domain,undersample,Tuning failed,,,,,
+Baseline,drop,domain,smote,Tuning failed,,,,,
+Baseline,drop,tfidf,none,Tuning failed,,,,,
+Baseline,drop,tfidf,class_weight,Tuning failed,,,,,
+Baseline,drop,tfidf,undersample,Tuning failed,,,,,
+Baseline,drop,tfidf,smote,Tuning failed,,,,,
+Baseline,knn,none,none,Tuning failed,,,,,
+Baseline,knn,none,class_weight,Tuning failed,,,,,
+Baseline,knn,none,undersample,Tuning failed,,,,,
+Baseline,knn,none,smote,Tuning failed,,,,,
+Baseline,knn,domain,none,Tuning failed,,,,,
+Baseline,knn,domain,class_weight,Tuning failed,,,,,
+Baseline,knn,domain,undersample,Tuning failed,,,,,
+Baseline,knn,domain,smote,Tuning failed,,,,,
+Baseline,knn,tfidf,none,Tuning failed,,,,,
+Baseline,knn,tfidf,class_weight,Tuning failed,,,,,
+Baseline,knn,tfidf,undersample,Tuning failed,,,,,
+Baseline,knn,tfidf,smote,Tuning failed,,,,,
+Baseline,model,none,none,Tuning failed,,,,,
+Baseline,model,none,class_weight,Tuning failed,,,,,
+Baseline,model,none,undersample,Tuning failed,,,,,
+Baseline,model,none,smote,Tuning failed,,,,,
+Baseline,model,domain,none,Tuning failed,,,,,
+Baseline,model,domain,class_weight,Tuning failed,,,,,
+Baseline,model,domain,undersample,Tuning failed,,,,,
+Baseline,model,domain,smote,Tuning failed,,,,,
+Baseline,model,tfidf,none,Tuning failed,,,,,
+Baseline,model,tfidf,class_weight,Tuning failed,,,,,
+Baseline,model,tfidf,undersample,Tuning failed,,,,,
+Baseline,model,tfidf,smote,Tuning failed,,,,,
+LogisticRegression,drop,domain,class_weight,"{'C': 1, 'class_weight': 'balanced', 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.5,0.795,0.614,0.205
+LogisticRegression,knn,domain,class_weight,"{'C': 1, 'class_weight': 'balanced', 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.732,0.476,0.784,0.592,0.216
+LogisticRegression,model,domain,class_weight,"{'C': 1, 'class_weight': 'balanced', 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.732,0.476,0.784,0.592,0.216
+LogisticRegression,drop,domain,none,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.768,0.56,0.318,0.406,0.682
+LogisticRegression,drop,domain,undersample,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.768,0.56,0.318,0.406,0.682
+LogisticRegression,drop,domain,smote,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.768,0.56,0.318,0.406,0.682
+LogisticRegression,model,domain,none,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.774,0.6,0.273,0.375,0.727
+LogisticRegression,model,domain,undersample,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.774,0.6,0.273,0.375,0.727
+LogisticRegression,model,domain,smote,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.774,0.6,0.273,0.375,0.727
+LogisticRegression,knn,domain,none,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.771,0.585,0.273,0.372,0.727
+LogisticRegression,knn,domain,undersample,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.771,0.585,0.273,0.372,0.727
+LogisticRegression,knn,domain,smote,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.771,0.585,0.273,0.372,0.727
+LogisticRegression,drop,none,none,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,drop,none,class_weight,"{'C': 1, 'class_weight': 'balanced', 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,drop,none,undersample,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,drop,none,smote,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,drop,tfidf,none,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,drop,tfidf,class_weight,"{'C': 1, 'class_weight': 'balanced', 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,drop,tfidf,undersample,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,drop,tfidf,smote,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,knn,none,none,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,knn,none,class_weight,"{'C': 1, 'class_weight': 'balanced', 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,knn,none,undersample,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,knn,none,smote,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,knn,tfidf,none,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,knn,tfidf,class_weight,"{'C': 1, 'class_weight': 'balanced', 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,knn,tfidf,undersample,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,knn,tfidf,smote,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,model,none,none,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,model,none,class_weight,"{'C': 1, 'class_weight': 'balanced', 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,model,none,undersample,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,model,none,smote,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,model,tfidf,none,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,model,tfidf,class_weight,"{'C': 1, 'class_weight': 'balanced', 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,model,tfidf,undersample,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+LogisticRegression,model,tfidf,smote,"{'C': 1, 'class_weight': None, 'max_iter': 200, 'penalty': 'l2', 'solver': 'liblinear'}",0.751,0.0,0.0,0.0,1.0
+RandomForest,model,domain,class_weight,"{'class_weight': 'balanced', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.994,0.978,1.0,0.989,0.0
+RandomForest,knn,domain,class_weight,"{'class_weight': 'balanced', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.986,0.946,1.0,0.972,0.0
+RandomForest,knn,domain,undersample,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.986,0.988,0.955,0.971,0.045
+RandomForest,knn,domain,smote,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.986,0.988,0.955,0.971,0.045
+RandomForest,model,domain,none,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.986,0.988,0.955,0.971,0.045
+RandomForest,knn,domain,none,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.983,0.988,0.943,0.965,0.057
+RandomForest,model,domain,undersample,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.983,0.988,0.943,0.965,0.057
+RandomForest,model,domain,smote,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.983,0.988,0.943,0.965,0.057
+RandomForest,drop,domain,class_weight,"{'class_weight': 'balanced', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.946,0.888,0.898,0.893,0.102
+RandomForest,drop,domain,none,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.944,0.895,0.875,0.885,0.125
+RandomForest,drop,domain,undersample,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.938,0.884,0.864,0.874,0.136
+RandomForest,drop,domain,smote,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.935,0.865,0.875,0.87,0.125
+RandomForest,knn,tfidf,none,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.808,1.0,0.227,0.37,0.773
+RandomForest,knn,tfidf,undersample,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.808,1.0,0.227,0.37,0.773
+RandomForest,model,tfidf,class_weight,"{'class_weight': 'balanced', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.76,1.0,0.034,0.066,0.966
+RandomForest,drop,none,none,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,drop,none,class_weight,"{'class_weight': 'balanced', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,drop,none,undersample,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,drop,none,smote,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,drop,tfidf,none,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,drop,tfidf,class_weight,"{'class_weight': 'balanced', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,drop,tfidf,undersample,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,drop,tfidf,smote,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,knn,none,none,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,knn,none,class_weight,"{'class_weight': 'balanced', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,knn,none,undersample,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,knn,none,smote,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,knn,tfidf,class_weight,"{'class_weight': 'balanced', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,knn,tfidf,smote,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,model,none,none,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,model,none,class_weight,"{'class_weight': 'balanced', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,model,none,undersample,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,model,none,smote,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,model,tfidf,none,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,model,tfidf,undersample,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+RandomForest,model,tfidf,smote,"{'class_weight': None, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 5, 'n_estimators': 300}",0.751,0.0,0.0,0.0,1.0
+SVM,knn,domain,none,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.274,0.255,1.0,0.406,0.0
+SVM,knn,domain,class_weight,"{'C': 1, 'class_weight': 'balanced', 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.274,0.255,1.0,0.406,0.0
+SVM,knn,domain,undersample,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.274,0.255,1.0,0.406,0.0
+SVM,knn,domain,smote,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.274,0.255,1.0,0.406,0.0
+SVM,model,domain,none,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.274,0.255,1.0,0.406,0.0
+SVM,model,domain,class_weight,"{'C': 1, 'class_weight': 'balanced', 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.274,0.255,1.0,0.406,0.0
+SVM,model,domain,undersample,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.274,0.255,1.0,0.406,0.0
+SVM,model,domain,smote,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.274,0.255,1.0,0.406,0.0
+SVM,drop,none,class_weight,"{'C': 1, 'class_weight': 'balanced', 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.249,0.249,1.0,0.398,0.0
+SVM,drop,domain,none,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.774,0.625,0.227,0.333,0.773
+SVM,drop,domain,class_weight,"{'C': 1, 'class_weight': 'balanced', 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.774,0.625,0.227,0.333,0.773
+SVM,drop,domain,undersample,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.774,0.625,0.227,0.333,0.773
+SVM,drop,domain,smote,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.774,0.625,0.227,0.333,0.773
+SVM,drop,tfidf,class_weight,"{'C': 1, 'class_weight': 'balanced', 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.78,0.857,0.136,0.235,0.864
+SVM,drop,tfidf,none,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.757,1.0,0.023,0.044,0.977
+SVM,drop,tfidf,undersample,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.757,1.0,0.023,0.044,0.977
+SVM,drop,tfidf,smote,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.757,1.0,0.023,0.044,0.977
+SVM,drop,none,none,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,drop,none,undersample,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,drop,none,smote,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,knn,none,none,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,knn,none,class_weight,"{'C': 1, 'class_weight': 'balanced', 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,knn,none,undersample,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,knn,none,smote,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,knn,tfidf,none,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,knn,tfidf,class_weight,"{'C': 1, 'class_weight': 'balanced', 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,knn,tfidf,undersample,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,knn,tfidf,smote,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,model,none,none,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,model,none,class_weight,"{'C': 1, 'class_weight': 'balanced', 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,model,none,undersample,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,model,none,smote,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,model,tfidf,none,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,model,tfidf,class_weight,"{'C': 1, 'class_weight': 'balanced', 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,model,tfidf,undersample,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
+SVM,model,tfidf,smote,"{'C': 1, 'class_weight': None, 'kernel': 'linear', 'max_iter': 1000, 'probability': True}",0.751,0.0,0.0,0.0,1.0
